@@ -1,13 +1,20 @@
-<?php namespace App\Models;
+<?php
 
-use Core\Model;
+    namespace App\Models;
 
- class User extends Model {
+    use Core\Model;
+    /**
+     * 
+     */
+    class User extends Model {
+        /**
+         * 
+         */
+        public function __construct ()
+        {
+            parent::__construct ();
 
-     public function __construct ()
-     {
-         parent::__construct();
-     }
+        }
 
- }
-
+    }
+    
