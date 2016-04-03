@@ -1,11 +1,17 @@
-<?php namespace Core;
+<?php
 
- class Model {
+    namespace Core;
+    /**
+     * 
+     */
+    class Model {
+        /**
+         * 
+         */
+        public function __construct ()
+        {
+            
+        }
 
-     public function __construct ()
-     {
-         
-     }
-
- }
-
+    }
+    
